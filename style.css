@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+*{
+
+}
+
+body{
+  background: #d7daf7;
+  margin: 2;
+  padding: 0;
+}
+
+.nav{
+  position:fixed;
+  width: 100%;
+}
+
+.introduction{
+  display: inline-block;
+  position: relative;
+  bottom: 250px;
+}
+
+#welcome{
+  font-family: 'Dancing Script', cursive;
+}
+
+#title1{
+  position: relative;
+  right: 250px;
+  top: 225px;
+}
+
+#intro{
+  display: inline-block;
+  width: 900px;
+  position: relative;
+  right: 275px;
+  top: 200px;
+}
+
+h1{
+  font-family: Helvetica;
+  font-size: 35px;
+  text-align: center;
+  background-color: #f2f0f0;
+  opacity: 0.75;
+  padding: 20px;
+}
+
+p:not(.contactblock){
+  font-size: 20px;
+  text-align: justify;
+  font-weight: normal;
+  font-family: monospace;
+  border: 4px dotted;
+  border-radius: 15px;
+  padding: 20px;
+  margin: 10px;
+
+}
+
+a:hover{
+  color: maroon;
+  font-weight: bold;
+}
+
+a:not(.contactblock){
+  font-family: sans-serif;
+  color: black;
+}
+
+#contact{
+  font-size: 25px;
+  text-align: left;
+
+}
+
+h3{
+  font-family:Tahoma;
+  text-align: center;
+  font-size: 30px;
+}
+
+#welcome{
+  text-align:center;
+  font-style:oblique;
+  font-weight: lighter;
+  font-family: serif;
+}
+
+img{
+  position: relative;
+  right: 20px;
+  text-align: right;
+  padding: 5px;
+  margin: 20px;
+  border: 5px solid black;
+  display: inline-block;
+  left: 955px;
+  top: 30px;
+}
+
+main{
+  text-align: right;
+  background-image: url(https://i.pinimg.com/originals/bf/0c/e1/bf0ce12b9d376430136a06f845bcc5b5.jpg);
+  position: relative;
+  top: 150px;
+}
+/* .arrowup{
+  display: flex;
+  position: relative;
+  width: 20px;
+  height: 20px;
+} */
+
+.contactblock{
+  position: relative;
+  top: 75px;
+  padding: 2px;
+  color: white;
+  background-color: #6e6968;
+  font-family: monospace;
+  border: 2px;
+  border-radius: 20px;
+}
+
+.contactblock a{
+  color: white;
+  font-weight: bold;
+
+}
